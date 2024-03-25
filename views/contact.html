@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Lin">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Lucas Lin professional website">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Lucas Lin</title>
+</head>
+<body onload="addYear()">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <header>
+        <h1 id="webname">Lucas Lin</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html" class="active">Contact me</a>
+            <a href="fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon"><i class="fa fa-bars" onclick="activeNav()"></i></a>
+        </nav>
+    </header>
+    <div>
+        <h2>Contact Me</h2>
+        <form action="">
+            <label for="name"> Your Name (required):</label>
+            <input type="text" name="name" id="name" required/>
+            <label for="email"> Your Email (required):</label>
+            <input type="email" name="email" id="email" required>
+            <label for="comment"> Your Comment or Question (required): </label>
+            <textarea id="comment" name ="comment" cols="30" rows="10" required></textarea>
+            <input type="submit" value="SEND" id="submit" onclick="validate()">
+        </form>
+        <p id="ValidateMsg"></p>
+        <table>
+            <tr><th>Contact Method</th><th>Description</th></tr>
+            <tr><td>Email</td><td>ldlin@andrew.cmu.edu</td></tr>
+            <tr><td>Phone</td><td>516-778-0853</td></tr>
+            <tr><td>LinkedIn</td><td>https://www.linkedin.com/in/lucas-lin-894abb2a1/</td></tr>
+        </table>
+    </div>
+    <footer>
+        <p id="copyYear">Lucas Lin &copy;</p>
+    </footer>
+</body>
+</html>

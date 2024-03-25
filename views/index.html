@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Lin">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Lucas Lin professional website">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Lucas Lin</title>
+</head>
+<body onload="addYear()">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <header>
+        <h1 id="webname">Lucas Lin</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact me</a>
+            <a href="fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon"><i class="fa fa-bars" onclick="activeNav()"></i></a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting"></h2>
+        <img src="../static/photo_of_me.jpg" alt="Lucas Lin profile image" width="350px" class="classA"> 
+        <div class="classA">
+            <!-- <p id="intro">
+                Hello! My name is Lucas Lin. I am from Long Island, New York, and a sophomore in Carnegie Mellon University majoring in 
+                Information Systems and minoring in Computer Science and Creative Writing. I greatly appreciate the Information Systems program, 
+                as its flexibility has allowed me to explore my interests in both software engineering and bias in technology. I hope that my 
+                future endeavors will allow me to pursue the intersection of these interests in meaningful ways. In my free time, I enjoy 
+                singing and managing the website for my a cappella group The Treblemakers, playing the piano, reading and writing, and hanging
+                with friends. 
+            </p> -->
+            <span id="shortIntro">
+                Hello! My name is Lucas Lin. I am from Long Island, New York, and a sophomore in Carnegie Mellon University majoring in 
+                Information Systems and minoring in Computer Science and Creative Writing. I greatly appreciate the Information Systems program, 
+                as its flexibility has allowed me to explore my interests in both software engineering and bias in technology.
+            </span>
+            <span id="readMore">read more...</span>
+            <span id="longIntro">
+                I hope that my future endeavors will allow me to pursue the intersection of these interests in meaningful ways. In my free time, I enjoy 
+                singing and managing the website for my a cappella group The Treblemakers, playing the piano, reading and writing, and hanging
+                with friends.
+            </span>
+            <span id="readLess">read less</span>
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Lucas Lin &copy;</p>
+    </footer>
+</body>
+</html>
